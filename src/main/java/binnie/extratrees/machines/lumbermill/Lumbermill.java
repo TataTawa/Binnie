@@ -38,6 +38,11 @@ public class Lumbermill {
 				break;
 			}
 		}
+		
+		if (stack == null) {
+			return null;
+		}
+		
 		stack.stackSize = 6;
 		return stack;
 	}
